@@ -11,7 +11,22 @@
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.3"
+    "react-native": "0.70.3",
+    "@react-navigation/bottom-tabs": "^6.3.2",
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "moment": "^2.29.4",
+    "native-base": "^3.4.9",
+    "prop-types": "^15.8.1",
+    "react-hook-form": "^7.35.0",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.2",
+    "redux-logger": "^3.0.6",
+    "react-native-pager-view": "^5.4.25",
+    "react-native-safe-area-context": "^3.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
