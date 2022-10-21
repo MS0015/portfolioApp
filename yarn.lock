@@ -2071,6 +2071,14 @@
   "resolved" "https://registry.npmjs.org/@react-navigation/elements/-/elements-1.3.6.tgz"
   "version" "1.3.6"
 
+"@react-navigation/material-top-tabs@^6.2.2":
+  "integrity" "sha512-nv9c3WbmzuwYZqDkinP375aTYzQIXkCzAmpHRsVH3AjpF2Qc62oKDjWuSMFdRn3VPe3LAH/0P6yUzQSX/800yQ=="
+  "resolved" "https://registry.npmjs.org/@react-navigation/material-top-tabs/-/material-top-tabs-6.3.0.tgz"
+  "version" "6.3.0"
+  dependencies:
+    "color" "^4.2.3"
+    "warn-once" "^0.1.0"
+
 "@react-navigation/native-stack@^6.7.0":
   "integrity" "sha512-aOuJP97ge6NRz8wH6sDKfLTfdygGmraYh0apKrrVbGvMnflbPX4kpjQiAQcUPUpMeas0betH/Su8QubNL8HEkg=="
   "resolved" "https://registry.npmjs.org/@react-navigation/native-stack/-/native-stack-6.9.1.tgz"
@@ -7291,6 +7299,11 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
+"react-native-confirmation-code-field@^7.3.0":
+  "integrity" "sha512-5vI6BclB31e4vTYg0HmV/Vy9zI5MQZfHr1EN3kYzvaZq4GMIsyr6lrSmnQW1TtWR7Z8oURrhCpwo+JsWXxCoug=="
+  "resolved" "https://registry.npmjs.org/react-native-confirmation-code-field/-/react-native-confirmation-code-field-7.3.1.tgz"
+  "version" "7.3.1"
+
 "react-native-gradle-plugin@^0.70.3":
   "integrity" "sha512-oOanj84fJEXUg9FoEAQomA8ISG+DVIrTZ3qF7m69VQUJyOGYyDZmPqKcjvRku4KXlEH6hWO9i4ACLzNBh8gC0A=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.70.3.tgz"
@@ -7309,7 +7322,12 @@
     "prop-types" "^15.6.2"
     "react-native-iphone-x-helper" "^1.0.3"
 
-"react-native-pager-view@^5.4.25":
+"react-native-linear-gradient@^2.6.2":
+  "integrity" "sha512-Z8Xxvupsex+9BBFoSYS87bilNPWcRfRsGC0cpJk72Nxb5p2nEkGSBv73xZbEHnW2mUFvP+huYxrVvjZkr/gRjQ=="
+  "resolved" "https://registry.npmjs.org/react-native-linear-gradient/-/react-native-linear-gradient-2.6.2.tgz"
+  "version" "2.6.2"
+
+"react-native-pager-view@*", "react-native-pager-view@^5.4.25", "react-native-pager-view@>= 4.0.0":
   "integrity" "sha512-3drrYwaLat2fYszymZe3nHMPASJ4aJMaxiejfA1V5SK3OygYmdtmV2u5prX7TnjueJzGSyyaCYEr2JlrRt4YPg=="
   "resolved" "https://registry.npmjs.org/react-native-pager-view/-/react-native-pager-view-5.4.25.tgz"
   "version" "5.4.25"
@@ -7319,10 +7337,10 @@
   "resolved" "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-3.4.1.tgz"
   "version" "3.4.1"
 
-"react-native-screens@>= 3.0.0":
-  "integrity" "sha512-ANUEuvMUlsYJ1QKukEhzhfrvOUO9BVH9Nzg+6eWxpn3cfD/O83yPBOF8Mx6x5H/2+sMy+VS5x/chWOOo/U7QJw=="
-  "resolved" "https://registry.npmjs.org/react-native-screens/-/react-native-screens-3.18.2.tgz"
-  "version" "3.18.2"
+"react-native-screens@>= 3.0.0", "react-native-screens@3.18.0":
+  "integrity" "sha512-ndnz5JPLMLq/ThCYQzAOT65x6B4bdKFH1GKckUdbxKrwINGItPRSUiAoVI7YYyOQOa4VYL4hF37rrx+AjgjtRg=="
+  "resolved" "https://registry.npmjs.org/react-native-screens/-/react-native-screens-3.18.0.tgz"
+  "version" "3.18.0"
   dependencies:
     "react-freeze" "^1.0.0"
     "warn-once" "^0.1.0"
@@ -7340,6 +7358,13 @@
     "css-select" "^5.1.0"
     "css-tree" "^1.1.3"
 
+"react-native-tab-view@>= 3.0.0":
+  "integrity" "sha512-xjAQe657Gp/de2QHb7ptksTg8Jcb+j3fLAdcYryzfavt/pe+HtKLpkCtQsxyIJpRrAO7YPxFsymi2N4MnNfePA=="
+  "resolved" "https://registry.npmjs.org/react-native-tab-view/-/react-native-tab-view-3.3.0.tgz"
+  "version" "3.3.0"
+  dependencies:
+    "use-latest-callback" "^0.1.5"
+
 "react-native-vector-icons@^9.2.0":
   "integrity" "sha512-wKYLaFuQST/chH3AJRjmOLoLy3JEs1JR6zMNgTaemFpNoXs0ztRnTxcxFD9xhX7cJe1/zoN5BpQYe7kL0m5yyA=="
   "resolved" "https://registry.npmjs.org/react-native-vector-icons/-/react-native-vector-icons-9.2.0.tgz"
@@ -7348,7 +7373,7 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native@*", "react-native@>=0.42.0", "react-native@>=0.48.4", "react-native@>=0.59", "react-native@0.70.3":
+"react-native@*", "react-native@>=0.42.0", "react-native@>=0.48.4", "react-native@>=0.59", "react-native@>=0.64.0", "react-native@0.70.3":
   "integrity" "sha512-EiJxOonyvpSWa3Eik7a6YAD6QU8lK2W9M/DDdYlpWmIlGLCd5110rIpEZjxttsyrohxlRJAYRgJ9Tx2mMXqtfw=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.70.3.tgz"
   "version" "0.70.3"
@@ -7420,7 +7445,7 @@
     "react-shallow-renderer" "^16.15.0"
     "scheduler" "^0.22.0"
 
-"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", "react@^18.1.0", "react@^18.2.0", "react@>=17.0.0", "react@18.1.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", "react@^18.1.0", "react@^18.2.0", "react@>=16.4.0", "react@>=17.0.0", "react@18.1.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
